@@ -1,0 +1,76 @@
+2026-02-05 15:30:48,657 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-05 15:30:49,994 | INFO | BinanceClient | API Response: {}
+2026-02-05 15:32:54,057 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-05 15:32:55,573 | ERROR | CLI | 0
+2026-02-05 15:35:38,229 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-05 15:35:44,369 | WARNING | BinanceClient | Order placed but could not verify immediately
+2026-02-05 15:37:04,541 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 70000.0, 'timeInForce': 'GTC'}
+2026-02-05 15:37:10,072 | WARNING | BinanceClient | Order placed but could not verify immediately
+2026-02-05 15:42:54,463 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.001, 'type': 'MARKET'}
+2026-02-05 15:42:59,901 | WARNING | BinanceClient | Order placed but could not verify immediately
+2026-02-05 15:43:05,192 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'quantity': 0.001, 'type': 'LIMIT', 'price': 70000.0, 'timeInForce': 'GTC'}
+2026-02-05 15:43:10,425 | WARNING | BinanceClient | Order placed but could not verify immediately
+2026-02-05 15:43:45,886 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'quantity': 0.001, 'type': 'STOP', 'price': 69450.0, 'stopPrice': 69500.0, 'timeInForce': 'GTC'}
+2026-02-05 15:43:50,617 | WARNING | BinanceClient | Order placed but could not verify immediately
+2026-02-05 15:46:23,417 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 50000.0, 'type': 'MARKET'}
+2026-02-05 15:46:29,142 | WARNING | BinanceClient | Order placed but could not verify immediately
+2026-02-05 15:46:54,182 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'quantity': 50000.0, 'type': 'MARKET'}
+2026-02-05 15:46:58,978 | WARNING | BinanceClient | Order placed but could not verify immediately
+2026-02-05 15:47:18,307 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 5000.0, 'type': 'LIMIT', 'price': 600.0, 'timeInForce': 'GTC'}
+2026-02-05 15:47:23,025 | WARNING | BinanceClient | Order placed but could not verify immediately
+2026-02-05 15:47:41,917 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 5000.0, 'type': 'LIMIT', 'price': 600.0, 'timeInForce': 'GTC'}
+2026-02-05 15:47:46,338 | WARNING | BinanceClient | Order placed but could not verify immediately
+2026-02-05 15:48:11,790 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 70000.0, 'type': 'STOP', 'price': 50.0, 'stopPrice': 5000.0, 'timeInForce': 'GTC'}
+2026-02-05 15:48:16,028 | WARNING | BinanceClient | Order placed but could not verify immediately
+2026-02-05 15:48:35,938 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 5000.0, 'type': 'STOP', 'price': 50.0, 'stopPrice': 5000.0, 'timeInForce': 'GTC'}
+2026-02-05 15:48:42,525 | WARNING | BinanceClient | Order placed but could not verify immediately
+2026-02-05 15:54:42,449 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'quantity': 200.0, 'type': 'STOP', 'price': 20.0, 'stopPrice': 200.0, 'timeInForce': 'GTC'}
+2026-02-05 15:54:46,677 | WARNING | BinanceClient | Order placed but could not verify immediately
+2026-02-05 17:38:43,095 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-05 17:38:43,970 | INFO | BinanceClient | API Response: {}
+2026-02-05 18:31:17,047 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-05 18:31:18,155 | INFO | BinanceClient | API Response: {}
+2026-02-05 18:35:46,089 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 200.0, 'price': 20.0, 'timeInForce': 'GTC'}
+2026-02-05 18:35:48,582 | INFO | BinanceClient | API Response: {}
+2026-02-05 18:47:02,668 | INFO | TWAP | TWAP start | symbol=BTCUSDT side=BUY total_qty=5000.0 slices=5 interval=20s
+2026-02-05 18:47:02,668 | INFO | TWAP | TWAP slice 1/5
+2026-02-05 18:47:02,668 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 1000.0}
+2026-02-05 18:47:02,772 | INFO | TWAP | TWAP start | symbol=BTCUSDT side=BUY total_qty=5000.0 slices=5 interval=20s
+2026-02-05 18:47:02,772 | INFO | TWAP | TWAP slice 1/5
+2026-02-05 18:47:02,772 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 1000.0}
+2026-02-05 18:47:09,215 | INFO | BinanceClient | API Response: {}
+2026-02-05 18:47:12,210 | INFO | BinanceClient | API Response: {}
+2026-02-05 18:47:29,216 | INFO | TWAP | TWAP slice 2/5
+2026-02-05 18:47:29,216 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 1000.0}
+2026-02-05 18:47:29,375 | INFO | BinanceClient | API Response: {}
+2026-02-05 18:47:32,211 | INFO | TWAP | TWAP slice 2/5
+2026-02-05 18:47:32,211 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 1000.0}
+2026-02-05 18:47:32,383 | INFO | BinanceClient | API Response: {}
+2026-02-05 18:47:49,375 | INFO | TWAP | TWAP slice 3/5
+2026-02-05 18:47:49,375 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 1000.0}
+2026-02-05 18:47:49,718 | INFO | BinanceClient | API Response: {}
+2026-02-05 18:47:52,384 | INFO | TWAP | TWAP slice 3/5
+2026-02-05 18:47:52,384 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 1000.0}
+2026-02-05 18:47:56,188 | INFO | BinanceClient | API Response: {}
+2026-02-05 18:48:09,719 | INFO | TWAP | TWAP slice 4/5
+2026-02-05 18:48:09,719 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 1000.0}
+2026-02-05 18:48:09,861 | INFO | BinanceClient | API Response: {}
+2026-02-05 18:48:16,189 | INFO | TWAP | TWAP slice 4/5
+2026-02-05 18:48:16,189 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 1000.0}
+2026-02-05 18:48:16,403 | INFO | BinanceClient | API Response: {}
+2026-02-05 18:48:29,863 | INFO | TWAP | TWAP slice 5/5
+2026-02-05 18:48:29,863 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 1000.0}
+2026-02-05 18:48:30,090 | INFO | BinanceClient | API Response: {}
+2026-02-05 18:48:30,090 | INFO | TWAP | TWAP completed successfully
+2026-02-05 18:48:36,404 | INFO | TWAP | TWAP slice 5/5
+2026-02-05 18:48:36,404 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 1000.0}
+2026-02-05 18:48:36,545 | INFO | BinanceClient | API Response: {}
+2026-02-05 18:48:36,546 | INFO | TWAP | TWAP completed successfully
+2026-02-05 18:56:36,105 | INFO | TWAP | TWAP start | symbol=BTCUSDT side=SELL total_qty=5000.0 slices=2 interval=50s
+2026-02-05 18:56:36,106 | INFO | TWAP | TWAP slice 1/2
+2026-02-05 18:56:36,106 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': 2500.0}
+2026-02-05 18:56:39,251 | INFO | BinanceClient | API Response: {}
+2026-02-05 18:57:29,252 | INFO | TWAP | TWAP slice 2/2
+2026-02-05 18:57:29,252 | INFO | BinanceClient | API Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': 2500.0}
+2026-02-05 18:57:29,874 | INFO | BinanceClient | API Response: {}
+2026-02-05 18:57:29,874 | INFO | TWAP | TWAP completed successfully
