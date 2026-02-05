@@ -17,7 +17,6 @@ st.set_page_config(
 )
 
 st.title("📈 Binance Futures Testnet Trading Bot")
-st.caption("Menu-based Streamlit UI")
 
 # ---------- Sidebar ----------
 st.sidebar.header("Order Configuration")
