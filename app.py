@@ -18,7 +18,7 @@ st.set_page_config(
 
 st.title("📈 Binance Futures Testnet Trading Bot")
 
-# ---------- Sidebar ----------
+
 st.sidebar.header("Order Configuration")
 
 symbol = st.sidebar.text_input("Symbol", value="BTCUSDT")
@@ -52,7 +52,7 @@ if order_type == "TWAP":
 
 place_order = st.sidebar.button("🚀 Place Order")
 
-# ---------- Preview ----------
+
 st.subheader("Order Preview")
 
 preview = {
@@ -72,7 +72,7 @@ if order_type == "TWAP":
 
 st.json(preview)
 
-# ---------- Execution ----------
+
 if place_order:
     try:
         client = BinanceFuturesClient()
